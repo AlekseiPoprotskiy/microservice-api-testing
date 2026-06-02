@@ -1,12 +1,6 @@
 # Microservice API Testing Platform
 
-Backend-oriented QA project focused on:
-
-* API testing
-* SQL validation
-* Linux troubleshooting
-* monitoring
-* backend QA workflows
+Backend-oriented QA project focused on distributed systems testing.
 
 ## Stack
 
@@ -14,17 +8,60 @@ Backend-oriented QA project focused on:
 * REST API
 * PostgreSQL
 * Docker
-* Bash
+* Linux/Bash
 * GitHub Actions
 
-## Features
+---
+
+# Project Goals
 
 * API validation
-* SQL checks
-* monitoring scripts
-* troubleshooting utilities
-* CI pipeline
+* SQL verification
+* troubleshooting
+* monitoring
+* backend QA workflows
 
-## Goal
+---
 
-The project simulates backend QA workflows used in distributed systems.
+# Features
+
+## API Testing
+
+* positive scenarios
+* negative scenarios
+* authorization checks
+* response validation
+* status code validation
+
+## SQL Validation
+
+* duplicate detection
+* aggregation checks
+* reconciliation validation
+
+## Monitoring & Troubleshooting
+
+* health check scripts
+* log analysis
+* API monitoring
+
+---
+
+# CI/CD
+
+GitHub Actions pipeline automatically runs checks on push.
+
+---
+
+# Future Improvements
+
+* Kafka event validation
+* Grafana monitoring
+* Kubernetes deployment
+* performance testing
+
+---
+
+# Goal
+
+The project simulates QA workflows used in backend and distributed systems environments.
